@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+
+  }
+p {font-size: 1em;}
+
+
+
+header { 
+    background-color: #fbf9f9;
+
+}
+.container img {
+    margin: 0;
+    height: 4em;
+}
+header .nombre {
+    margin: 0;
+    padding: 10px 10px;
+}
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 5px 12px;
+}
+header a:hover {
+    transition: all 1s;
+    color: #BFBFBF;
+}
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 15px;
+ }
+ 
+body { 
+    background-color: #BFBFBF;
+    margin: 0;
+    } 
+
+.section1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+    background-image: url("imagenes/antartida3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.fondo-antartida {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 12em;
+    width: 13em;
+    background-color: #fbf9f9 ;
+    border-radius: 20px;
+    margin-left: 4em;
+}        
+.fondo-antartida img {
+    display: flex;
+    flex-direction: column;
+    width: 7.5em;
+    height: 7.5em;
+}
+
+
+.bear {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+}
+.contenedor {
+   width: 20em;
+   height: 15em;
+   margin: auto;
+   background-color: #DEE1FF;
+   border-radius: 20px;
+
+}
+.contenedor h1 {
+    font-size: 2em;
+    margin: 0;
+    margin-left: 1em;
+    padding-top: 1em;
+}
+.contenedor li {
+    margin-top: 1em;
+    margin-left: 2em;
+}
+.imagen {
+    margin: auto;
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+
+}
+.section2 img {
+    width: 14em;
+    height: 14em;
+
+}
+footer {
+background-color: #D9D9D9;
+margin: 0;
+}
+footer .container {
+ display: flex;
+ height: 4em;
+ align-items: center;
+ text-align: center;
+}
+footer p {
+display: flex;
+font-size: 14px;
+margin-left: 12px;
+margin-top: 2em;
+justify-content: center;
+}
+
+@media (min-width: 720px) {
+    header .container {
+        flex-direction: row;
+        margin-left: 1em;
+    }
+    header nav {
+        flex-direction: row;
+        margin-top: 0.9em;
+    }
+    .section1 .fondo-antartida {
+        display: flex;
+        width: 18em;
+        height: 18em;
+    }
+    .fondo-antartida img {
+         width: 9em;
+         height: 9em;
+     }
+    .section2 .media {
+        display: flex;
+    }
+    .section2 .contenedor {
+        display: inline-block;
+        margin-top: -10em;
+        margin-left: 3em;
+        width: 25em;
+        height: 19em;
+    }
+    .section2 h1 {
+        font-size: 2.5em;
+    }
+    .section2 li {
+        font-size: 1.2em;
+    }
+    .section2 img {
+        width: 25em;
+        height: 19em;
+        margin-top: -13em;
+        margin-left: 45em;
+    }
+    footer .bear-text {
+        margin-left: 109em; 
+    } 
+}
