@@ -259,7 +259,7 @@ footer p {
     justify-content: center;
 }
 
-/* Responsive para dispositivos móviles */
+
 @media only screen and (max-width: 600px) {
     header {
         display: flex;
@@ -269,6 +269,7 @@ footer p {
     .container img {
         margin: 0;
     }
+
     header .container {
         display: flex;
         flex-direction: column;
@@ -284,7 +285,10 @@ footer p {
     header a {
         margin: 0.5em;
     }
-    
+    .fondo-antartida {
+        width: 16em;
+        height: 16em;
+    }
     .section2 {
         flex-direction: column;
     }
