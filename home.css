@@ -73,6 +73,7 @@ body {
 }
 .fondo-antartida p {
     font-weight: bold;
+    font-size: 1.2em;
 }
 .section2 {
     display: flex;
